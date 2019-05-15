@@ -1,0 +1,156 @@
+/*
+Theme Name: DEMO
+Theme URI: http://wordpress.org/themes/demo
+Author: Shreejana
+Author URI: http://wordpress.org/
+Description: It is theme for learning purpose
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: demo
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+body
+{
+text-align: left;
+}
+
+/*header*/
+#header-left-section
+{
+  float: left;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+#header-logo
+{
+  float: left;
+    padding: 0 20px 0 0;
+    max-width: 100%;
+}
+
+#header-text
+{
+   float: left;
+    padding: 10px 20px 0 0;
+}
+#header-text #site-description
+{
+  font-size: 20px;
+}
+
+/*.stickymenu
+{
+  float: right
+
+}
+*/
+#ttr_header
+{
+width: 100%;
+border-top: 1px #a2a2a2 solid;
+text-align: center;
+}
+
+/*#ttr_sidebar
+{
+	height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #b37e7e;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}*/
+#ttr_footer
+{
+width: 100#b37e7eborder-top: 1px #a2a2a2 solid;
+text-align: center;
+}
+.title
+{
+font-size: 11pt;
+font-family: verdana;
+font-weight: bold;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.more-link
+{
+  font-size: 14px;
+  color: #0FBE7C;
+  font-family: 'Lato', sans-serif;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+     display: block !important; 
+}
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+     display: block !important; 
+}
+
+ /* contact form */
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

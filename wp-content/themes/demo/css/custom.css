@@ -1,0 +1,18 @@
+
+
+body
+{
+	color:blue;
+}
+
+.colored
+{
+	color::orange;
+}
+
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled 
+{
+	display: block !important;
+}
+
